@@ -8,10 +8,10 @@ import { PortafolioComponent } from "./pages/portafolio/portafolio.component";
 
 
 const app_routes: Routes = [
-    { path: '', component: PortafolioComponent },
+    { path: 'home', component: PortafolioComponent },
     { path: 'about', component: AboutComponent },
     { path: 'item', component: ItemComponent },
-    { path: '**', pathMatch: 'full', redirectTo: '' }
+    { path: '**', pathMatch: 'full', redirectTo: 'home' }
 
 ];
 
@@ -19,7 +19,7 @@ const app_routes: Routes = [
 
 @NgModule({
     imports: [
-        RouterModule.forRoot( app_routes )
+        RouterModule.forRoot( app_routes, { useHash: true } )
     ],
     exports: [
         RouterModule
