@@ -1,13 +1,11 @@
 # Portafolio
 
-Bienvenido a esta pagina web de un portafolio, una herramienta que permite gestionar documentos de una persona
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+Bienvenido a la aplicación web “portafolio”, una herramienta que permite gestionar documentos de una persona
+Este proyecto se generó con [Angular CLI](https://github.com/angular/angular-cli) versión 15.2.4.
 
-## Development server
+## Servidor de desarrollo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Ejecute `ng serve` para un servidor de desarrollo. Navegue hasta `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos fuente.
 
-## Capturas de Pantalla
-
+## Imagen de la aplicación 
 ![Alt text](captura_de_pantalla.png)
-
